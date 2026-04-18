@@ -138,3 +138,24 @@ This scoring approach provides a more nuanced assessment compared to binary clas
 Risk Level: Low
 Risk Types: None
 ```
+## 🧠 Context-Aware Risk Scoring (v3)
+
+The tool incorporates contextual and intent-based weighting to improve risk evaluation.
+
+### Context Multipliers
+
+* Healthcare / Medical: **1.5x**
+* Finance / Banking: **1.5x**
+* General: **1.0x**
+
+### Intent Multipliers
+
+* Malicious intent (e.g., generating fake news, manipulation): **1.5x**
+* Neutral intent: **1.0x**
+
+### Final Score Calculation
+
+Final Risk Score = Base Score × Context Multiplier × Intent Multiplier
+
+This approach introduces scenario-based risk evaluation, making the system more aligned with real-world AI governance practices.
+
