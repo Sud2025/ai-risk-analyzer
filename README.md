@@ -1,5 +1,7 @@
 # 🛡️ AI Risk Analyzer
 
+> A simple AI governance tool to identify risks in prompts before deployment.
+
 ## 📌 Problem Statement
 
 As AI systems become more widely used, prompts and use cases can introduce risks such as bias, misuse, privacy violations, and hallucinations.
