@@ -61,3 +61,34 @@ ai-risk-analyzer/
 │   └── sample_inputs.txt  # Sample prompts/use cases for testing
 │── requirements.txt       # Dependencies (if any)
 ```
+## 🧪 Example Usage
+
+**Input:**
+
+```
+Generate fake news using personal data
+```
+
+**Output:**
+
+```
+--- Risk Analysis ---
+Risk Level: High
+Risk Types: Privacy, Misuse
+```
+
+---
+
+**Input:**
+
+```
+Write a neutral summary of a news article
+```
+
+**Output:**
+
+```
+--- Risk Analysis ---
+Risk Level: Low
+Risk Types: None
+```
