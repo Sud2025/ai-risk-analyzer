@@ -1,4 +1,6 @@
 ## 📁 Project Structure
+
+This structure is designed to separate core logic from execution, making the project modular and scalable.
 ```bash
 ai-risk-analyzer/
 │── README.md              # Project overview and documentation
