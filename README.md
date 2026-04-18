@@ -89,6 +89,30 @@ Write a neutral summary of a news article
 
 **Output:**
 
+## 📅 Progress Log
+
+### ✅ Date: 4/17/26 – Initial Setup & Risk Engine
+
+* Created project structure and repository
+* Implemented core risk analysis logic (`risk_rules.py`)
+* Built CLI-based execution (`main.py`)
+* Added sample test inputs
+* Defined basic rule-based risk categories:
+
+  * Privacy
+  * Misuse
+  * Bias
+
+### 🔍 Key Outcome
+
+A working Python-based tool that can evaluate AI prompts and classify risk levels (Low / Medium / High).
+
+### 🚧 Next Steps
+
+* Improve risk detection logic (scoring system)
+* Build UI for better user interaction
+* Expand risk categories (e.g., hallucination, compliance)
+
 ```
 --- Risk Analysis ---
 Risk Level: Low
