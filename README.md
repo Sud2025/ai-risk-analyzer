@@ -113,6 +113,26 @@ A working Python-based tool that can evaluate AI prompts and classify risk level
 * Build UI for better user interaction
 * Expand risk categories (e.g., hallucination, compliance)
 
+* ## 📊 Risk Scoring System (v2)
+
+The AI Risk Analyzer uses a simple scoring model to evaluate risk severity:
+
+| Risk Type     | Score |
+| ------------- | ----- |
+| Privacy       | +3    |
+| Misuse        | +3    |
+| Bias          | +2    |
+| Hallucination | +2    |
+
+### Risk Levels
+
+* **Low:** Score = 0
+* **Medium:** Score = 1–3
+* **High:** Score ≥ 4
+
+This scoring approach provides a more nuanced assessment compared to binary classification and aligns with real-world risk evaluation practices.
+
+
 ```
 --- Risk Analysis ---
 Risk Level: Low
